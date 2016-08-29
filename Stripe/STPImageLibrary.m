@@ -82,6 +82,10 @@
     return [self safeImageNamed:@"stp_icon_chevron_right_small" templateIfAvailable:YES];
 }
 
++ (UIImage *)checkmarkIcon {
+    return [self safeImageNamed:@"stp_icon_checkmark" templateIfAvailable:YES];
+}
+
 + (UIImage *)largeCardFrontImage {
     return [self safeImageNamed:@"stp_card_form_front" templateIfAvailable:YES];
 }
@@ -92,6 +96,10 @@
 
 + (UIImage *)largeCardApplePayImage {
     return [self safeImageNamed:@"stp_card_form_applepay" templateIfAvailable:YES];
+}
+
++ (UIImage *)largeShippingImage {
+    return [self safeImageNamed:@"stp_shipping_form" templateIfAvailable:YES];
 }
 
 + (UIImage *)safeImageNamed:(NSString *)imageName
